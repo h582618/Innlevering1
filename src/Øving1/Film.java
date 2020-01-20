@@ -1,5 +1,5 @@
 package Øving1;
 
-public class Test {
+public class Film {
 
 }
