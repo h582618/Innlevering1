@@ -4,7 +4,8 @@ public interface FilmArkivADT {
 	
 	 Film[] hentFilmTabell();
 	
-     void leggtil(Film nyFilm);
+     void leggTil
+     (Film nyFilm);
      
      boolean slettFilm(int filmNr);
      
