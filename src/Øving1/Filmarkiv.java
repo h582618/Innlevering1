@@ -1,3 +1,5 @@
+
+
 package Øving1;
 
 public abstract class Filmarkiv implements FilmArkivADT {
@@ -83,7 +85,7 @@ public abstract class Filmarkiv implements FilmArkivADT {
 		int j = 0;
 		for (int i = 0; i < lagtTil; i++) {
 
-			if (filmer[i].getSjanger() == sjanger) {
+			if (filmer[i].getSjanger().equals(sjanger)) {
 				j++;
 			}
 		}

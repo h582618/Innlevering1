@@ -2,6 +2,7 @@ package Øving1;
 
 public interface FilmArkivADT {
 	
+	
 	 Film[] hentFilmTabell();
 	
      void leggTil
