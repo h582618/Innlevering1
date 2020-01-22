@@ -19,7 +19,7 @@ public class Tester extends Filmarkiv{
 
 	public static void main(String[] args) {
 		
-		Filmarkiv FADT = new Tester(5);
+		Filmarkiv FADT = new Tester(20);
 		
 		Sjanger [] sjanger = new Sjanger[] {DRAMA,
 				ACTION,
@@ -39,7 +39,7 @@ public class Tester extends Filmarkiv{
 		FADT.leggTil(new Film(5,"Matias","Bleh",1996,"Brinken",sjanger[3]));
 		
 		
-Meny n = new Meny(FADT);
+        Meny n = new Meny(FADT);
 		
 		n.menyValg();
 		

@@ -20,12 +20,15 @@ public abstract class Filmarkiv implements FilmArkivADT {
 
 		int i = 0;
 		while (i < lagtTil) {
+			if(filmer[i] != null && filmer[i].getFnr() != 0) {
+				
+			
 			if (filmer[i].getFnr() == fnr) {
 				filmer[i] = filmer[lagtTil];
 				filmer[lagtTil] = null;
 				lagtTil--;
 				return true;
-
+			}
 			} else {
 				i++;
 			}
@@ -85,8 +88,10 @@ public abstract class Filmarkiv implements FilmArkivADT {
 		int j = 0;
 		for (int i = 0; i < lagtTil; i++) {
 
+			if(filmer[i] != null && filmer[i].getSjanger() != null) {
 			if (filmer[i].getSjanger().equals(sjanger)) {
 				j++;
+			}
 			}
 		}
 		return j;

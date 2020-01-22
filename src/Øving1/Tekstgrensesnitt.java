@@ -41,7 +41,7 @@ public class Tekstgrensesnitt {
 			antallS[i] = filmer.antallSjanger(sjanger[i]);
 		}
 
-		System.out.println(filmer.antall());
+		System.out.println("Antall filmer er: " + filmer.antall());
 
 		for (int i = 0; i < antallS.length; i++) {
 			System.out.println(sjanger[i] + " " + antallS[i]);

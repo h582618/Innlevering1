@@ -19,7 +19,8 @@ public class Meny {
 		System.out.println("L for å legge inn");
 		System.out.println("S for å slette");
 		System.out.println("F for å Søke og hente filmer med en gitt delstreng");
-		System.out.println("P for å Søke og filmer utifra delstreng til en produsnet");
+		System.out.println("P for å Søke og filmer utifra delstreng til en produsent");
+		System.out.println("T for å skrive ut statestikk");
 
 		Scanner sc = new Scanner(System.in);
 
@@ -59,11 +60,17 @@ public class Meny {
 			tekstgr.delProdusent(delstreng, film);
 
 			break;
+		case "T":
+			tekstgr.skrivUtStatistikk(film);
+			
+			break;
 
 		case "Q":
 			run = false;
 			break;
 
+		
+			
 		default:
 			System.out.println("Feil input");
 		}
