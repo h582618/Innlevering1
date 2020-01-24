@@ -1,12 +1,18 @@
 
 
-package Øving1;
+package no.hvl.dat102;
 
-public abstract class Filmarkiv implements FilmArkivADT {
+import no.hvl.dat102.adt.FilmArkivADT;
+
+public class Filmarkiv implements FilmArkivADT {
 
 	private Film[] filmer;
 	private int lagtTil;
 
+	public Filmarkiv() {
+		
+	}
+	
 	public Filmarkiv(int n) {
 		filmer = new Film[n];
 	}
@@ -95,7 +101,7 @@ public abstract class Filmarkiv implements FilmArkivADT {
 			}
 		}
 		return j;
-
+		
 	}
 
 }

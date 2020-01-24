@@ -1,4 +1,4 @@
-package Øving1;
+package no.hvl.dat102;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,6 +7,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+
+import no.hvl.dat102.adt.FilmArkivADT;
 
 public class Fil {
 	final static String SKILLE = "#";
@@ -84,7 +86,6 @@ public class Fil {
 				utfil.print(f[i].getFstudio());
 				utfil.print(SKILLE);
 				utfil.print(f[i].getSjanger());
-				utfil.println(SKILLE);
 
 			}
 			utfil.close();

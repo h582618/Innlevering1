@@ -1,6 +1,8 @@
-package Øving1;
+package no.hvl.dat102;
 
-import static Øving1.Sjanger.*;
+import static no.hvl.dat102.Sjanger.*;
+
+import no.hvl.dat102.adt.FilmArkivADT;
 
 public class Tekstgrensesnitt {
 

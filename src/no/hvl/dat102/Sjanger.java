@@ -1,4 +1,4 @@
-package Øving1;
+package no.hvl.dat102;
 
 public enum Sjanger {
 DRAMA,

@@ -1,4 +1,7 @@
-package Øving1;
+package no.hvl.dat102.adt;
+
+import no.hvl.dat102.*;
+import no.hvl.dat102.Sjanger;
 
 public interface FilmArkivADT {
 	

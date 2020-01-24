@@ -1,6 +1,8 @@
-package Øving1;
+package no.hvl.dat102;
 
 import java.util.Scanner;
+
+import no.hvl.dat102.adt.FilmArkivADT;
 
 public class Meny {
 
