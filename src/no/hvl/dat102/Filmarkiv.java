@@ -35,9 +35,8 @@ public class Filmarkiv implements FilmArkivADT {
 				lagtTil--;
 				return true;
 			}
-			} else {
-				i++;
-			}
+			} 
+			i++;
 		}
 		return false;
 	}

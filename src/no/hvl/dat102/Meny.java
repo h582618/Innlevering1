@@ -48,7 +48,6 @@ public class Meny {
 			} else {
 				System.out.println("Fant ikke film");
 			}
-
 			break;
 		case "F":
 			System.out.println("Tast inn Tittel");

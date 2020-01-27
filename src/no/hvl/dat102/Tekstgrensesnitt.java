@@ -34,8 +34,7 @@ public class Tekstgrensesnitt {
 
 	public void skrivUtStatistikk(FilmArkivADT filmer) {
 
-		Sjanger[] sjanger = new Sjanger[] { DRAMA, ACTION, HORROR, COMEDY, FICTION, FANTASY, ROMANCE, THRILLER,
-				MYSTERY };
+		Sjanger[] sjanger = Sjanger.values();
 
 		int antallS[] = new int[filmer.antall()];
 
