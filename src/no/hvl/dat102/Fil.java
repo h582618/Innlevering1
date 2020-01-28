@@ -8,15 +8,18 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
 import no.hvl.dat102.adt.FilmArkivADT;
 
 public class Fil {
+	
+	public static String path = "/Users/matia/Filmarkiv/";
 	final static String SKILLE = "#";
 
 	public static void lesFraFil(FilmArkivADT filmarkiv, String filnavn) {
 
 		try {
-			FileReader Fil = new FileReader(filnavn);
+			FileReader Fil = new FileReader(path+filnavn+".txt");
 			BufferedReader leser = new BufferedReader(Fil);
 
 			int linenumber = 1;
@@ -68,7 +71,7 @@ public class Fil {
 	public static void skrivTilFil(FilmArkivADT filmarkiv, String filnavn) {
 
 		try {
-			FileWriter Fil = new FileWriter(filnavn);
+			FileWriter Fil = new FileWriter(path+filnavn+".txt");
 			PrintWriter utfil = new PrintWriter(Fil);
 
 			Film[] f = filmarkiv.hentFilmTabell();
@@ -85,7 +88,7 @@ public class Fil {
 				utfil.print(SKILLE);
 				utfil.print(f[i].getFstudio());
 				utfil.print(SKILLE);
-				utfil.print(f[i].getSjanger());
+				utfil.println(f[i].getSjanger());
 
 			}
 			utfil.close();

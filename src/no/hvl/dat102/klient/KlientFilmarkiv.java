@@ -24,13 +24,9 @@ public class KlientFilmarkiv {
 
 		Meny n = new Meny(FADT);
 
-//		n.menyValg();
+     	n.menyValg();
 		
-		int [] test = {
-				1,2,3,4,5,6
-		};
-		
-		System.out.print(harDuplikat(test,5));
+   
 
 	}
 
@@ -40,14 +36,5 @@ public class KlientFilmarkiv {
 		String input = sc.nextLine();
 
 	}
-
-	public static boolean harDuplikat (int tabell[], int n){// n er antall elementer 
-		for (int indeks = 0; indeks <= n-2; indeks++){
-		for (int igjen = indeks + 1; igjen <= n-1; igjen++){ 
-			if(tabell[indeks] == tabell[igjen])
-		return true;
-		}
-		}return false;
-}// metod
 
 }
