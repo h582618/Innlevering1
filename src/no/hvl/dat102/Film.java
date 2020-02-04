@@ -15,6 +15,7 @@ public class Film {
 	public Film(String navn) {
 		this.title = navn;
 	}
+
 	public Film(int fnr, String producer,String title, int year, String fstudio, Sjanger sjanger) {
 		this.fnr = fnr;
 		this.producer = producer;
