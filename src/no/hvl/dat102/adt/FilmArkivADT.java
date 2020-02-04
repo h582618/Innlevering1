@@ -21,5 +21,7 @@ public interface FilmArkivADT {
      
      int antall();
      
+     boolean finnFnr(int fnr);
+     
      
 }
