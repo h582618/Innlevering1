@@ -36,11 +36,14 @@ public class Tekstgrensesnitt {
 
 		Sjanger[] sjanger = Sjanger.values();
 
-		int antallS[] = new int[filmer.antall()];
+		int antallS[] = new int[sjanger.length];
 
-		for (int i = 0; i < filmer.antall(); i++) {
+		
+		for (int i = 0; i < sjanger.length; i++) {
 			antallS[i] = filmer.antallSjanger(sjanger[i]);
-		}
+			}
+		
+		
 
 		System.out.println("Antall filmer er: " + filmer.antall());
 
