@@ -38,18 +38,13 @@ public class Tekstgrensesnitt {
 
 		int antallS[] = new int[sjanger.length];
 
-		
-		for (int i = 0; i < sjanger.length; i++) {
-			antallS[i] = filmer.antallSjanger(sjanger[i]);
-			}
-		
-		
-
 		System.out.println("Antall filmer er: " + filmer.antall());
 
-		for (int i = 0; i < antallS.length; i++) {
+		for (int i = 0; i < sjanger.length; i++) {
+			antallS[i] = filmer.antallSjanger(sjanger[i]);
 			System.out.println(sjanger[i] + " " + antallS[i]);
 		}
+
 	}
 
 }

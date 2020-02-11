@@ -9,11 +9,13 @@ import java.util.Scanner;
 
 public class KlientFilmarkiv {
 
-	public static void main(String[] args) {
 
+	public static void main(String [] args) {
+		
 		FilmArkivADT FADT = new Filmarkiv(40);
 
-//		Sjanger[] sjanger = Sjanger.values();
+		Sjanger[] sjanger = Sjanger.values();
+
 
 //		FADT.leggTil(new Film(1, "Matias", "Titanic", 1996, "Brinken", sjanger[1]));
 //
