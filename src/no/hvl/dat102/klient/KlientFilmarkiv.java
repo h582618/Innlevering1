@@ -14,7 +14,11 @@ public class KlientFilmarkiv {
 		
 		FilmArkivADT FADT = new Filmarkiv(40);
 
+<<<<<<< HEAD
 		Sjanger[] sjanger = Sjanger.values();
+=======
+//		Sjanger[] sjanger = Sjanger.values();
+>>>>>>> e9a5562e268fa966e3b8ae5bc3792274388057bd
 
 //		FADT.leggTil(new Film(1, "Matias", "Titanic", 1996, "Brinken", sjanger[1]));
 //

@@ -4,6 +4,7 @@ import no.hvl.dat102.*;
 import no.hvl.dat102.Sjanger;
 
 public interface FilmArkivADT {
+<<<<<<< HEAD
 
 	/**
 	 * 
@@ -64,4 +65,26 @@ public interface FilmArkivADT {
 	 */
 	int antall();
 
+=======
+	
+	
+	 Film[] hentFilmTabell();
+	
+     void leggTil
+     (Film nyFilm);
+     
+     boolean slettFilm(int filmNr);
+     
+     Film[] finnFilm(String tekst);
+     
+     Film[] finnProdusent(String tekst);
+     
+     int antallSjanger(Sjanger sjanger);
+     
+     int antall();
+     
+     boolean finnFnr(int fnr);
+     
+     
+>>>>>>> e9a5562e268fa966e3b8ae5bc3792274388057bd
 }
