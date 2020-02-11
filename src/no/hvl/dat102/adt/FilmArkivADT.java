@@ -51,8 +51,9 @@ public interface FilmArkivADT {
 	Film[] finnProdusent(String tekst);
 
 	/**
-	 * Kjører en loop som sjekker om filmer ikke er lik null.
-	 * Hvis ikke sjekker den at sjanger er lik getSjanger(), øker int med 1.
+	 * Kjører en loop som sjekker om filmer ikke er lik null. Hvis ikke sjekker den
+	 * at sjanger er lik getSjanger(), øker int med 1.
+	 * 
 	 * @param sjanger i paramateren brukes til å sammenligne med getSjanger()
 	 * @return int, antall sjanger.
 	 */

@@ -49,7 +49,6 @@ public class Meny {
 			}
 		}
 		
-		
 		System.out.println("L for å legge inn");
 		System.out.println("S for å slette");
 		System.out.println("F for å Søke og hente filmer med en gitt delstreng");

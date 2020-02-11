@@ -51,7 +51,7 @@ public class Filmarkiv implements FilmArkivADT {
 
 		for (int i = 0; i < lagtTil; i++) {
 			titler = filmer[i].getTitle();
-			inneholder = titler.contains(tekst);
+			inneholder = titler.toUpperCase().contains(tekst.toUpperCase());
 			if (inneholder) {
 				fa[j] = filmer[i];
 				j++;
