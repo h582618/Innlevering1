@@ -115,5 +115,15 @@ public class Filmarkiv implements FilmArkivADT {
 		}
 		return false;
 	}
+	
+	public boolean finnFnr(int fnr) {
+		
+		for(int i = 0; i < lagtTil; i++) {
+			if(filmer[i].getFnr() == fnr) {
+				return true;
+			}
+		}
+		return false;
+	}
 
 }

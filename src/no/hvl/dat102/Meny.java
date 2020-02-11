@@ -46,11 +46,6 @@ public class Meny {
 				break;
 			}
 		}
-<<<<<<< HEAD
-		
-=======
-
->>>>>>> e9a5562e268fa966e3b8ae5bc3792274388057bd
 		System.out.println("L for å legge inn");
 		System.out.println("S for å slette");
 		System.out.println("F for å Søke og hente filmer med en gitt delstreng");
@@ -85,7 +80,6 @@ public class Meny {
 				System.out.println("Sjanger");
 				fSjanger = sc.nextLine();
 				Film f = new Film(filmnr, fProdusent, fNavn, fAar, fStudio, Sjanger.valueOf(fSjanger.toUpperCase()));
-//				int fnr, String producer,String title, int year, String fstudio, Sjanger sjanger
 				
 				film.leggTil(f);
 				System.out.println(fNavn + " lagt til med film numer " + filmnr);
